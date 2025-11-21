@@ -1,0 +1,225 @@
+size,density,noise_level,negative_values,seed,algorithm,start_node,end_node,result_status,path,distance,execution_time_seconds,path_length
+10,0.2,0.0,False,43,dijkstra,0,4,no_path,,inf,1.1e-05,0
+10,0.2,0.0,True,44,bellman_ford,6,8,success,6 -> 1 -> 4 -> 8,1289.0,0.000282,4
+10,0.2,0.1,False,45,dijkstra,4,6,no_path,,inf,9e-06,0
+10,0.2,0.1,True,46,bellman_ford,1,6,success,1 -> 8 -> 5 -> 6,1807.0,0.000147,4
+10,0.2,0.5,False,47,dijkstra,5,1,success,5 -> 1,768.0,1.1e-05,2
+10,0.2,0.5,True,48,bellman_ford,8,5,no_path,,inf,6.3e-05,0
+10,0.2,0.8,False,49,dijkstra,1,5,no_path,,inf,5e-06,0
+10,0.2,0.8,True,50,bellman_ford,7,4,success,7 -> 1 -> 9 -> 4,1785.0,9.2e-05,4
+10,0.5,0.0,False,51,dijkstra,3,8,success,3 -> 5 -> 8,914.0,2.1e-05,3
+10,0.5,0.0,True,52,bellman_ford,4,0,success,4 -> 5 -> 0,1104.0,0.000194,3
+10,0.5,0.1,False,53,dijkstra,9,3,success,9 -> 3,826.0,2.3e-05,2
+10,0.5,0.1,True,54,bellman_ford,2,7,success,2 -> 0 -> 9 -> 7,746.0,0.000187,4
+10,0.5,0.5,False,55,dijkstra,1,3,success,1 -> 0 -> 3,1215.0,1.9e-05,3
+10,0.5,0.5,True,56,bellman_ford,8,0,negative_cycle,,-inf,0.000186,0
+10,0.5,0.8,False,57,dijkstra,0,5,success,0 -> 3 -> 5,1383.0,1.9e-05,3
+10,0.5,0.8,True,58,bellman_ford,9,3,negative_cycle,,-inf,0.000169,0
+10,0.8,0.0,False,59,floyd_warshall,3,1,success,3 -> 1,606.0,0.000379,2
+10,0.8,0.0,True,60,bellman_ford,4,9,success,4 -> 9,212.0,0.000217,2
+10,0.8,0.1,False,61,floyd_warshall,7,2,success,7 -> 0 -> 2,694.0,0.000387,3
+10,0.8,0.1,True,62,bellman_ford,9,2,success,9 -> 2,277.0,0.00042,2
+10,0.8,0.5,False,63,floyd_warshall,7,9,success,7 -> 3 -> 9,662.0,0.000504,3
+10,0.8,0.5,True,64,bellman_ford,7,1,success,7 -> 3 -> 0 -> 9 -> 8 -> 1,599.0,0.000219,6
+10,0.8,0.8,False,65,floyd_warshall,6,4,success,6 -> 4,1397.0,0.000363,2
+10,0.8,0.8,True,66,bellman_ford,1,4,negative_cycle,,-inf,0.000231,0
+10,1.0,0.0,False,67,floyd_warshall,1,9,success,1 -> 9,289.0,0.000839,2
+10,1.0,0.0,True,68,bellman_ford,7,8,success,7 -> 8,580.0,0.000696,2
+10,1.0,0.1,False,69,floyd_warshall,0,1,success,0 -> 1,406.0,0.000387,2
+10,1.0,0.1,True,70,bellman_ford,1,4,success,1 -> 4,782.0,0.000264,2
+10,1.0,0.5,False,71,floyd_warshall,5,8,success,5 -> 8,1086.0,0.005215,2
+10,1.0,0.5,True,72,bellman_ford,1,2,negative_cycle,,-inf,0.000283,0
+10,1.0,0.8,False,73,floyd_warshall,4,1,success,4 -> 1,662.0,0.000992,2
+10,1.0,0.8,True,74,bellman_ford,9,8,negative_cycle,,-inf,0.001295,0
+20,0.2,0.0,False,75,dijkstra,14,18,success,14 -> 1 -> 15 -> 12 -> 18,2508.0,7.1e-05,5
+20,0.2,0.0,True,76,bellman_ford,11,14,success,11 -> 12 -> 14,1430.0,0.002139,3
+20,0.2,0.1,False,77,dijkstra,8,10,success,8 -> 11 -> 2 -> 5 -> 10,1722.0,0.000117,5
+20,0.2,0.1,True,78,bellman_ford,6,3,success,6 -> 15 -> 19 -> 3,908.0,0.00134,4
+20,0.2,0.5,False,79,dijkstra,4,14,success,4 -> 16 -> 14,2195.0,4.9e-05,3
+20,0.2,0.5,True,80,bellman_ford,8,12,success,8 -> 12,201.0,0.000964,2
+20,0.2,0.8,False,81,dijkstra,16,14,success,16 -> 5 -> 2 -> 14,2251.0,0.000111,4
+20,0.2,0.8,True,82,bellman_ford,4,15,success,4 -> 18 -> 15,908.0,0.001735,3
+20,0.5,0.0,False,83,dijkstra,15,14,success,15 -> 4 -> 14,617.0,6.1e-05,3
+20,0.5,0.0,True,84,bellman_ford,9,1,success,9 -> 8 -> 1,779.0,0.002867,3
+20,0.5,0.1,False,85,dijkstra,6,3,success,6 -> 3,406.0,6.4e-05,2
+20,0.5,0.1,True,86,bellman_ford,0,17,negative_cycle,,-inf,0.003133,0
+20,0.5,0.5,False,87,dijkstra,4,6,success,4 -> 6,1048.0,6.7e-05,2
+20,0.5,0.5,True,88,bellman_ford,12,6,negative_cycle,,-inf,0.002982,0
+20,0.5,0.8,False,89,dijkstra,2,8,success,2 -> 8,910.0,0.000106,2
+20,0.5,0.8,True,90,bellman_ford,6,2,negative_cycle,,-inf,0.003649,0
+20,0.8,0.0,False,91,floyd_warshall,2,18,success,2 -> 18,260.0,0.006681,2
+20,0.8,0.0,True,92,bellman_ford,13,16,success,13 -> 11 -> 16,967.0,0.001826,3
+20,0.8,0.1,False,93,floyd_warshall,15,18,success,15 -> 18,342.0,0.004126,2
+20,0.8,0.1,True,94,bellman_ford,17,5,success,17 -> 5,399.0,0.001746,2
+20,0.8,0.5,False,95,floyd_warshall,17,16,success,17 -> 16,755.0,0.005272,2
+20,0.8,0.5,True,96,bellman_ford,11,10,negative_cycle,,-inf,0.003397,0
+20,0.8,0.8,False,97,floyd_warshall,6,13,success,6 -> 13,863.0,0.002898,2
+20,0.8,0.8,True,98,bellman_ford,11,18,negative_cycle,,-inf,0.00321,0
+20,1.0,0.0,False,99,floyd_warshall,12,19,success,12 -> 19,484.0,0.004918,2
+20,1.0,0.0,True,100,bellman_ford,4,14,success,4 -> 14,304.0,0.002097,2
+20,1.0,0.1,False,101,floyd_warshall,18,6,success,18 -> 10 -> 6,926.0,0.005492,3
+20,1.0,0.1,True,102,bellman_ford,4,11,negative_cycle,,-inf,0.002393,0
+20,1.0,0.5,False,103,floyd_warshall,14,6,success,14 -> 16 -> 6,1106.0,0.002997,3
+20,1.0,0.5,True,104,bellman_ford,0,6,negative_cycle,,-inf,0.004628,0
+20,1.0,0.8,False,105,floyd_warshall,18,11,success,18 -> 15 -> 11,629.0,0.007242,3
+20,1.0,0.8,True,106,bellman_ford,15,0,negative_cycle,,-inf,0.004457,0
+50,0.2,0.0,False,107,dijkstra,15,39,success,15 -> 22 -> 39,819.0,0.001821,3
+50,0.2,0.0,True,108,bellman_ford,8,45,success,8 -> 38 -> 45,482.0,0.021779,3
+50,0.2,0.1,False,109,dijkstra,17,14,success,17 -> 26 -> 14,883.0,0.000248,3
+50,0.2,0.1,True,110,bellman_ford,24,38,negative_cycle,,-inf,0.014505,0
+50,0.2,0.5,False,111,dijkstra,13,20,success,13 -> 32 -> 20,1115.0,0.000215,3
+50,0.2,0.5,True,112,bellman_ford,30,42,negative_cycle,,-inf,0.014878,0
+50,0.2,0.8,False,113,dijkstra,1,41,success,1 -> 26 -> 24 -> 13 -> 41,1286.0,0.00026,5
+50,0.2,0.8,True,114,bellman_ford,15,36,negative_cycle,,-inf,0.015766,0
+50,0.5,0.0,False,115,dijkstra,18,12,success,18 -> 12,698.0,0.000341,2
+50,0.5,0.0,True,116,bellman_ford,47,38,success,47 -> 10 -> 38,720.0,0.02062,3
+50,0.5,0.1,False,117,dijkstra,15,11,success,15 -> 24 -> 11,887.0,0.000306,3
+50,0.5,0.1,True,118,bellman_ford,45,40,negative_cycle,,-inf,0.02064,0
+50,0.5,0.5,False,119,dijkstra,18,11,success,18 -> 42 -> 11,825.0,0.000202,3
+50,0.5,0.5,True,120,bellman_ford,32,15,negative_cycle,,-inf,0.021428,0
+50,0.5,0.8,False,121,dijkstra,5,13,success,5 -> 48 -> 38 -> 13,963.0,0.000268,4
+50,0.5,0.8,True,122,bellman_ford,32,13,negative_cycle,,-inf,0.021924,0
+50,0.8,0.0,False,123,floyd_warshall,3,17,success,3 -> 17,193.0,0.042985,2
+50,0.8,0.0,True,124,bellman_ford,17,35,success,17 -> 19 -> 35,396.0,0.025328,3
+50,0.8,0.1,False,125,floyd_warshall,15,14,success,15 -> 14,260.0,0.042587,2
+50,0.8,0.1,True,126,bellman_ford,36,3,negative_cycle,,-inf,0.025685,0
+50,0.8,0.5,False,127,floyd_warshall,2,39,success,2 -> 39,564.0,0.043183,2
+50,0.8,0.5,True,128,bellman_ford,15,25,negative_cycle,,-inf,0.026883,0
+50,0.8,0.8,False,129,floyd_warshall,37,33,success,37 -> 33,826.0,0.042536,2
+50,0.8,0.8,True,130,bellman_ford,33,27,negative_cycle,,-inf,0.028027,0
+50,1.0,0.0,False,131,floyd_warshall,20,23,success,20 -> 23,660.0,0.04263,2
+50,1.0,0.0,True,132,bellman_ford,26,9,success,26 -> 9,1055.0,0.028967,2
+50,1.0,0.1,False,133,floyd_warshall,31,22,success,31 -> 36 -> 22,523.0,0.042136,3
+50,1.0,0.1,True,134,bellman_ford,30,33,negative_cycle,,-inf,0.028517,0
+50,1.0,0.5,False,135,floyd_warshall,42,23,success,42 -> 10 -> 23,794.0,0.042441,3
+50,1.0,0.5,True,136,bellman_ford,36,27,negative_cycle,,-inf,0.030249,0
+50,1.0,0.8,False,137,floyd_warshall,4,11,success,4 -> 33 -> 11,607.0,0.04157,3
+50,1.0,0.8,True,138,bellman_ford,12,24,negative_cycle,,-inf,0.032104,0
+100,0.2,0.0,False,139,dijkstra,0,88,success,0 -> 56 -> 25 -> 88,641.0,0.000919,4
+100,0.2,0.0,True,140,bellman_ford,98,12,success,98 -> 88 -> 12,602.0,0.1068,3
+100,0.2,0.1,False,141,dijkstra,66,99,success,66 -> 81 -> 7 -> 99,831.0,0.00105,4
+100,0.2,0.1,True,142,bellman_ford,74,88,success,74 -> 60 -> 88,501.0,0.108818,3
+100,0.2,0.5,False,143,dijkstra,23,5,success,23 -> 67 -> 10 -> 46 -> 5,1083.0,0.001051,5
+100,0.2,0.5,True,144,bellman_ford,57,4,negative_cycle,,-inf,0.109186,0
+100,0.2,0.8,False,145,dijkstra,96,54,success,96 -> 94 -> 54,1736.0,0.000925,3
+100,0.2,0.8,True,146,bellman_ford,17,79,negative_cycle,,-inf,0.11642,0
+100,0.5,0.0,False,147,dijkstra,77,82,success,77 -> 53 -> 82,819.0,0.001302,3
+100,0.5,0.0,True,148,bellman_ford,51,89,success,51 -> 89,323.0,0.156375,2
+100,0.5,0.1,False,149,dijkstra,9,12,success,9 -> 1 -> 12,1066.0,0.001381,3
+100,0.5,0.1,True,150,bellman_ford,41,51,negative_cycle,,-inf,0.154572,0
+100,0.5,0.5,False,151,dijkstra,90,52,success,90 -> 96 -> 52,783.0,0.001154,3
+100,0.5,0.5,True,152,bellman_ford,96,50,negative_cycle,,-inf,0.164996,0
+100,0.5,0.8,False,153,dijkstra,62,9,success,62 -> 34 -> 9,1108.0,0.001339,3
+100,0.5,0.8,True,154,bellman_ford,26,48,negative_cycle,,-inf,0.180707,0
+100,0.8,0.0,False,155,floyd_warshall,74,64,success,74 -> 90 -> 64,423.0,0.341528,3
+100,0.8,0.0,True,156,bellman_ford,62,53,success,62 -> 53,184.0,0.204224,2
+100,0.8,0.1,False,157,floyd_warshall,78,62,success,78 -> 62,545.0,0.363813,2
+100,0.8,0.1,True,158,bellman_ford,87,28,negative_cycle,,-inf,0.210205,0
+100,0.8,0.5,False,159,floyd_warshall,50,21,success,50 -> 21,560.0,0.348397,2
+100,0.8,0.5,True,160,bellman_ford,15,64,negative_cycle,,-inf,0.211601,0
+100,0.8,0.8,False,161,floyd_warshall,66,26,success,66 -> 41 -> 26,978.0,0.335255,3
+100,0.8,0.8,True,162,bellman_ford,6,88,negative_cycle,,-inf,0.242031,0
+100,1.0,0.0,False,163,floyd_warshall,69,79,success,69 -> 79,533.0,0.354317,2
+100,1.0,0.0,True,164,bellman_ford,12,94,success,12 -> 94,258.0,0.23685,2
+100,1.0,0.1,False,165,floyd_warshall,2,7,success,2 -> 72 -> 7,795.0,0.333775,3
+100,1.0,0.1,True,166,bellman_ford,22,80,negative_cycle,,-inf,0.233566,0
+100,1.0,0.5,False,167,floyd_warshall,29,11,success,29 -> 81 -> 11,1100.0,0.337548,3
+100,1.0,0.5,True,168,bellman_ford,95,14,negative_cycle,,-inf,0.243258,0
+100,1.0,0.8,False,169,floyd_warshall,32,66,success,32 -> 80 -> 66,1036.0,0.352598,3
+100,1.0,0.8,True,170,bellman_ford,44,75,negative_cycle,,-inf,0.26425,0
+200,0.2,0.0,False,171,dijkstra,143,99,success,143 -> 166 -> 99,239.0,0.000555,3
+200,0.2,0.0,True,172,bellman_ford,90,49,success,90 -> 49,21.0,0.858893,2
+200,0.2,0.1,False,173,dijkstra,82,124,success,82 -> 176 -> 124,638.0,0.002575,3
+200,0.2,0.1,True,174,bellman_ford,1,113,negative_cycle,,-inf,0.852001,0
+200,0.2,0.5,False,175,dijkstra,113,60,success,113 -> 156 -> 132 -> 60,1242.0,0.004084,4
+200,0.2,0.5,True,176,bellman_ford,7,14,negative_cycle,,-inf,0.890915,0
+200,0.2,0.8,False,177,dijkstra,55,127,success,55 -> 127,381.0,0.000206,2
+200,0.2,0.8,True,178,bellman_ford,28,142,negative_cycle,,-inf,0.936795,0
+200,0.5,0.0,False,179,dijkstra,50,31,success,50 -> 152 -> 33 -> 31,300.0,0.001614,4
+200,0.5,0.0,True,180,bellman_ford,36,20,success,36 -> 95 -> 20,360.0,1.259004,3
+200,0.5,0.1,False,181,dijkstra,148,178,success,148 -> 178,456.0,0.002769,2
+200,0.5,0.1,True,182,bellman_ford,115,90,negative_cycle,,-inf,1.231417,0
+200,0.5,0.5,False,183,dijkstra,27,23,success,27 -> 45 -> 113 -> 23,825.0,0.004276,4
+200,0.5,0.5,True,184,bellman_ford,70,1,negative_cycle,,-inf,1.310184,0
+200,0.5,0.8,False,185,dijkstra,28,38,success,28 -> 169 -> 115 -> 38,994.0,0.004747,4
+200,0.5,0.8,True,186,bellman_ford,87,169,negative_cycle,,-inf,1.364575,0
+200,0.8,0.0,False,187,dijkstra,89,121,success,89 -> 121,264.0,0.002189,2
+200,0.8,0.0,True,188,bellman_ford,180,56,success,180 -> 56,526.0,1.577916,2
+200,0.8,0.1,False,189,dijkstra,123,190,success,123 -> 190,98.0,0.000142,2
+200,0.8,0.1,True,190,bellman_ford,19,43,negative_cycle,,-inf,1.566682,0
+200,0.8,0.5,False,191,dijkstra,194,135,success,194 -> 135,460.0,0.003036,2
+200,0.8,0.5,True,192,bellman_ford,95,76,negative_cycle,,-inf,1.669427,0
+200,0.8,0.8,False,193,dijkstra,143,118,success,143 -> 118,571.0,0.001648,2
+200,0.8,0.8,True,194,bellman_ford,154,17,negative_cycle,,-inf,1.751358,0
+200,1.0,0.0,False,195,dijkstra,152,101,success,152 -> 101,362.0,0.003018,2
+200,1.0,0.0,True,196,bellman_ford,166,129,success,166 -> 129,528.0,1.821589,2
+200,1.0,0.1,False,197,dijkstra,138,3,success,138 -> 151 -> 3,607.0,0.004468,3
+200,1.0,0.1,True,198,bellman_ford,13,146,negative_cycle,,-inf,1.812157,0
+200,1.0,0.5,False,199,dijkstra,88,190,success,88 -> 190,291.0,0.000913,2
+200,1.0,0.5,True,200,bellman_ford,11,52,negative_cycle,,-inf,1.935357,0
+200,1.0,0.8,False,201,dijkstra,17,182,success,17 -> 182,516.0,0.004143,2
+200,1.0,0.8,True,202,bellman_ford,195,98,negative_cycle,,-inf,2.047899,0
+500,0.2,0.0,False,203,dijkstra,46,21,success,46 -> 278 -> 21,694.0,0.021371,3
+500,0.2,0.0,True,204,bellman_ford,203,440,success,203 -> 440,384.0,13.382922,2
+500,0.2,0.1,False,205,dijkstra,222,246,success,222 -> 246,916.0,0.025312,2
+500,0.2,0.1,True,206,bellman_ford,4,40,negative_cycle,,-inf,13.492702,0
+500,0.2,0.5,False,207,dijkstra,259,337,success,259 -> 130 -> 337,977.0,0.024558,3
+500,0.2,0.5,True,208,bellman_ford,142,269,negative_cycle,,-inf,14.191994,0
+500,0.2,0.8,False,209,dijkstra,285,336,success,285 -> 378 -> 336,988.0,0.025374,3
+500,0.2,0.8,True,210,bellman_ford,196,3,negative_cycle,,-inf,14.409964,0
+500,0.5,0.0,False,211,dijkstra,289,182,success,289 -> 116 -> 182,343.0,0.013605,3
+500,0.5,0.0,True,212,bellman_ford,202,311,success,202 -> 161 -> 311,419.0,19.453612,3
+500,0.5,0.1,False,213,dijkstra,77,208,success,77 -> 361 -> 208,188.0,0.002924,3
+500,0.5,0.1,True,214,bellman_ford,264,373,negative_cycle,,-inf,20.161083,0
+500,0.5,0.5,False,215,dijkstra,22,323,success,22 -> 224 -> 46 -> 323,496.0,0.015665,4
+500,0.5,0.5,True,216,bellman_ford,439,106,negative_cycle,,-inf,21.153568,0
+500,0.5,0.8,False,217,dijkstra,491,146,success,491 -> 207 -> 236 -> 146,696.0,0.027844,4
+500,0.5,0.8,True,218,bellman_ford,153,95,negative_cycle,,-inf,22.108533,0
+500,0.8,0.0,False,219,dijkstra,357,326,success,357 -> 326,325.0,0.014613,2
+500,0.8,0.0,True,220,bellman_ford,382,391,success,382 -> 424 -> 391,568.0,24.72424,3
+500,0.8,0.1,False,221,dijkstra,125,217,success,125 -> 33 -> 153 -> 217,587.0,0.032985,4
+500,0.8,0.1,True,222,bellman_ford,398,55,negative_cycle,,-inf,24.720566,0
+500,0.8,0.5,False,223,dijkstra,170,183,success,170 -> 458 -> 409 -> 183,1018.0,0.038367,4
+500,0.8,0.5,True,224,bellman_ford,32,432,negative_cycle,,-inf,27.032372,0
+500,0.8,0.8,False,225,dijkstra,358,461,success,358 -> 235 -> 431 -> 461,919.0,0.034342,4
+500,0.8,0.8,True,226,bellman_ford,247,16,negative_cycle,,-inf,28.421512,0
+500,1.0,0.0,False,227,dijkstra,204,465,success,204 -> 465,253.0,0.011254,2
+500,1.0,0.0,True,228,bellman_ford,470,386,success,470 -> 313 -> 300 -> 386,496.0,28.031054,4
+500,1.0,0.1,False,229,dijkstra,270,71,success,270 -> 460 -> 71,266.0,0.010172,3
+500,1.0,0.1,True,230,bellman_ford,360,82,negative_cycle,,-inf,28.105828,0
+500,1.0,0.5,False,231,dijkstra,437,11,success,437 -> 96 -> 11,321.0,0.009241,3
+500,1.0,0.5,True,232,bellman_ford,143,63,negative_cycle,,-inf,30.476416,0
+500,1.0,0.8,False,233,dijkstra,349,410,success,349 -> 410,422.0,0.009293,2
+500,1.0,0.8,True,234,bellman_ford,175,135,negative_cycle,,-inf,32.199008,0
+1000,0.2,0.0,False,235,dijkstra,355,742,success,355 -> 628 -> 742,588.0,0.069069,3
+1000,0.2,0.0,True,236,bellman_ford,689,379,success,689 -> 540 -> 379,728.0,108.662922,3
+1000,0.2,0.1,False,237,dijkstra,637,506,success,637 -> 827 -> 715 -> 427 -> 174 -> 506,739.0,0.106218,6
+1000,0.2,0.1,True,238,bellman_ford,814,380,negative_cycle,,-inf,110.442477,0
+1000,0.2,0.5,False,239,dijkstra,121,196,success,121 -> 959 -> 196,902.0,0.106583,3
+1000,0.2,0.5,True,240,bellman_ford,884,631,negative_cycle,,-inf,116.094933,0
+1000,0.2,0.8,False,241,dijkstra,704,546,success,704 -> 842 -> 375 -> 546,976.0,0.10179,4
+1000,0.2,0.8,True,242,bellman_ford,343,28,negative_cycle,,-inf,117.043772,0
+1000,0.5,0.0,False,243,dijkstra,916,538,success,916 -> 538,657.0,0.128822,2
+1000,0.5,0.0,True,244,bellman_ford,968,769,success,968 -> 769,685.0,155.836895,2
+1000,0.5,0.1,False,245,dijkstra,128,294,success,128 -> 222 -> 992 -> 294,931.0,0.138719,4
+1000,0.5,0.1,True,246,bellman_ford,949,61,negative_cycle,,-inf,158.6465,0
+1000,0.5,0.5,False,247,dijkstra,469,346,success,469 -> 346,247.0,0.00535,2
+1000,0.5,0.5,True,248,bellman_ford,856,425,negative_cycle,,-inf,170.920518,0
+1000,0.5,0.8,False,249,dijkstra,277,596,success,277 -> 632 -> 594 -> 749 -> 596,972.0,0.137735,5
+1000,0.5,0.8,True,250,bellman_ford,396,411,negative_cycle,,-inf,178.593606,0
+1000,0.8,0.0,False,251,dijkstra,455,675,success,455 -> 670 -> 30 -> 547 -> 253 -> 675,762.0,0.146187,6
+1000,0.8,0.0,True,252,bellman_ford,795,636,success,795 -> 184 -> 636,1034.0,898.498949,3
+1000,0.8,0.1,False,253,dijkstra,551,544,success,551 -> 963 -> 544,302.0,0.038667,3
+1000,0.8,0.1,True,254,bellman_ford,383,513,negative_cycle,,-inf,230.410842,0
+1000,0.8,0.5,False,255,dijkstra,56,332,success,56 -> 43 -> 332,490.0,0.088949,3
+1000,0.8,0.5,True,256,bellman_ford,500,317,negative_cycle,,-inf,219.19101,0
+1000,0.8,0.8,False,257,dijkstra,324,421,success,324 -> 246 -> 421,424.0,0.080554,3
+1000,0.8,0.8,True,258,bellman_ford,669,881,negative_cycle,,-inf,1141.934659,0
+1000,1.0,0.0,False,259,dijkstra,40,823,success,40 -> 863 -> 823,340.0,0.046594,3
+1000,1.0,0.0,True,260,bellman_ford,215,73,success,215 -> 61 -> 288 -> 73,509.0,993.246357,4
+1000,1.0,0.1,False,261,dijkstra,443,31,success,443 -> 239 -> 31,659.0,0.136195,3
+1000,1.0,0.1,True,262,bellman_ford,320,773,negative_cycle,,-inf,225.322176,0
+1000,1.0,0.5,False,263,dijkstra,759,908,success,759 -> 908,515.0,0.127535,2
+1000,1.0,0.5,True,264,bellman_ford,636,792,negative_cycle,,-inf,245.890691,0
+1000,1.0,0.8,False,265,dijkstra,828,401,success,828 -> 971 -> 891 -> 401,715.0,0.147747,4
+1000,1.0,0.8,True,266,bellman_ford,989,71,negative_cycle,,-inf,258.661784,0

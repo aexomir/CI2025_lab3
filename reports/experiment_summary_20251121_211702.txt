@@ -1,0 +1,23 @@
+EXPERIMENT SUMMARY
+================================================================================
+
+Total Experiments: 224
+Timestamp: 2025-11-21T21:17:02.138567
+
+Results by Status:
+  no_path: 4
+  success: 148
+  negative_cycle: 72
+
+Results by Algorithm:
+  dijkstra: 80
+  bellman_ford: 112
+  floyd_warshall: 32
+
+Average Execution Times (seconds):
+  dijkstra: 0.024720s
+  bellman_ford: 51.051056s
+  floyd_warshall: 0.098625s
+
+Total Execution Time:
+  5722.851855s (95.38 minutes)

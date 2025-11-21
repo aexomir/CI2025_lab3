@@ -1,0 +1,17 @@
+EXPERIMENT SUMMARY
+================================================================================
+
+Total Experiments: 1
+Timestamp: 2025-11-21T19:38:28.903442
+
+Results by Status:
+  success: 1
+
+Results by Algorithm:
+  dijkstra: 1
+
+Average Execution Times (seconds):
+  dijkstra: 0.000231s
+
+Total Execution Time:
+  0.000231s (0.00 minutes)

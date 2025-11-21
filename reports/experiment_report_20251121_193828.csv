@@ -1,0 +1,2 @@
+size,density,noise_level,negative_values,seed,algorithm,start_node,end_node,result_status,path,distance,execution_time_seconds,path_length
+10,0.5,0.1,False,42,dijkstra,1,0,success,1 -> 0,346.0,0.000231,2
